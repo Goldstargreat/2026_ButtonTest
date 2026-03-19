@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+<!--    상단 타이틀 바 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="직접 풀어보기 4-2"
+        android:background="#000000"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp" />
+
+    <!-- 전체 내용 영역 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- 버튼 1 -->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="버튼 1"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#000000"
+            app:cornerRadius="0dp"
+            />
+
+        <!-- 일반 텍스트 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="이것은 텍스트뷰입니다."
+            android:layout_marginTop="16dp" />
+
+        <!-- 강조된 텍스트 (파란 바) -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="이것은 에디트텍스트입니다."
+            android:background="#1E3A8A"
+            android:textColor="#FFFFFF"
+            android:padding="8dp"
+            android:layout_marginTop="8dp" />
+
+        <!-- 버튼 2 (세로로 긴 버튼) -->
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="500dp"
+            android:text="버튼 2"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#CCCCCC"
+            app:cornerRadius="0dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
